@@ -4,6 +4,6 @@ git init
 git checkout -b main
 git add README.md
 git commit -m "first commit"
-git remote add origin http://localhost:3000/inder/demo_testing.git
+git remote add origin http://localhost:3000/brijesh/demo_testing.git
 git push -u origin main
 

@@ -15,4 +15,9 @@ git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/BrijeshYadav05253/demo_testing.git
-git push -u origin main
+git push -u origin mai
+n
+
+#2nd mirror
+
+safsfsdfsdfsdfsdfsdf

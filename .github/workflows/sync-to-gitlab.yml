@@ -15,8 +15,7 @@ jobs:
 
       - name: Mirror push to GitLab
         run: |
-          git remote add origin http://git.int.india.gov.in/gitadmin/demo_project.git
+          git remote add gitlab http://gitadmin:${{ secrets.DEMO }}@git.int.india.gov.in/gitadmin/demo_project.git
           git push --mirror gitlab
-        env:
-          GITLAB_TOKEN: ${{ secrets.DEMO }}
+
 
